@@ -1,17 +1,18 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
-* print_alphabet - a function that prints the alphabet, in lowercase
-*
-* Return: Always 0 (Succes)
+*main -> Prints the last digit of a randomly generated
+*dgsdfsds
+*Return: Always 0
 */
-void print_alphabet(void)
+int main(void)
 {
-int n;
-
-for (n = 'a'; n <= 'z'; n++)
+int ch;
+for (ch = 97; ch <= 122; ch++)
 {
-_putchar(n);
+putchar(ch);
 }
-_putchar('\n');
+putchar(10);
+
+return (0);
 }
